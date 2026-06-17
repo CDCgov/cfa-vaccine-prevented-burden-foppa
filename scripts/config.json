@@ -1,0 +1,17 @@
+{
+  "n_simulations": 10000,
+  "seed": 256257010691088883690048879542530824840,
+  "min_n_total_outcomes": 1,
+  "parameters": {
+    "n_people": { "type": "constant", "value": 10000 },
+    "p_oc_cf": { "type": "scale_log", "min": 0.0001, "max": 0.1 },
+    "p_vax": { "type": "scale", "min": 0.0, "max": 1.0 },
+    "oc_time_mean": { "type": "constant", "value": 0.0 },
+    "oc_time_scale": { "type": "scale", "min": 1.0, "max": 100.0 },
+    "vax_time_mean": { "type": "scale", "min": -500.0, "max": 500.0 },
+    "vax_time_scale": { "type": "scale", "min": 1.0, "max": 100.0 },
+    "ve": { "type": "scale", "min": 0.0, "max": 1.0 },
+    "ve_delay": { "type": "scale", "min": 0.0, "max": 50.0 },
+    "period_duration": { "type": "scale", "min": 1.0, "max": 100.0 }
+  }
+}
