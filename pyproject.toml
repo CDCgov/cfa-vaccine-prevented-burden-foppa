@@ -1,6 +1,6 @@
 [project]
 name = "burden"
-version = "0.2.0"
+version = "1.0.0"
 description = "Compare the prevented burden estimated by multiple analytical methods"
 authors = [
     { name = "Fuhan Yang", email = "ab32@cdc.gov" },
