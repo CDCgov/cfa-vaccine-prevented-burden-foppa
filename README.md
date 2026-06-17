@@ -1,21 +1,12 @@
-# Prevented burden comparison
+# Vaccine-prevented burden: Foppa method
 
-## Overview
-
-This is a software package to compare the accuracy of prevented burden estimates from multiple methods.
+This repo contains analyses measuring the accuracy of the Foppa method for estimating vaccine-prevented disease burden.
 
 ## Getting started
 
-This is a [uv](https://docs.astral.sh/uv/)-enabled project. Install uv to run code and build local documentation.
-
-1. Read package documentation:
-   - Online at <https://cdcent.github.io/cfa-averted-burden-comparison/>
-   - In `docs/`
-   - Locally with `uv run --groups mkdocs mkdocs serve`
-2. Read manuscript material in `ms/`
-3. Run the pipeline with `uv run make`
-   - Requires a system installation of LaTeX
-4. See results in `output/`
+1. Read the [package documentation](https://cdcgov.github.io/cfa-vaccine-prevented-burden-foppa/)
+1. Install [uv](https://docs.astral.sh/uv/) and run the pipeline with `uv run make`.
+1. Inspect the results in `output/`.
 
 ## Project Admin
 
